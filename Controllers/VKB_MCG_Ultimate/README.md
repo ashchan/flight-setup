@@ -45,6 +45,25 @@ Note 2: POV buttons are mapped to DCS view controls (e.g., `JOY_BTN_POV1_R` to `
 1. Repeat, tis time set type to `Wheel`.
 1. Click `Action/Set` to save to device.
 
+## Foldable Trigger
+
+Note: foldable trigger is actually an axis which has the get calibrated in order to work properly. When calibrating, be sure to move it from safe (top) to fully triggered (bottom).
+
+1. Go to Profile/Axes/Axes2Buttons.
+1. Check the `Enable MCG PRO Trigger` checkbox.
+1. Check the `Safe` checkbox.
+1. Check the `Armed` checkbox.
+1. Click `Action/Set` to save to device.
+
+## MCG Brake
+
+This adds a button to the brake lever.
+
+1. Go to Profile/Axes/Axes2Buttons.
+1. Check the `MCG Brake` checkbox.
+1. Change the button position by dragging the slider.
+1. Click `Action/Set` to save to device.
+
 ## References
 
 * [Software tutorials - How to set up the ministick as virtual mouse](https://www.youtube.com/watch?v=io2qSKM0gs4)
