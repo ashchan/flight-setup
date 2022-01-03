@@ -14,7 +14,7 @@ This sets up the left ministick to toggle between virtual mouse and axes modes.
 
 1. Open VKBDevCfg and go to Global/Common.
 1. Under POV# control change the POVs number to 2.
-1. Go to Profile/POVs, set POV #2 Type to `LoRes 4w` and Output to `Mouse`, set axes to `X:5` and `Y:6`, uncheck `Y:6`'s `Inv` checkbox.
+1. Go to Profile/POVs, set POV #2 Type to `LoRes 8w` and Output to `Mouse`, set axes to `X:5` and `Y:6`, uncheck `Y:6`'s `Inv` checkbox.
 1. Go to Profile/Buttons, check `Poll` checkbox, press left ministick push button to identify it. Click the identified button cell to open Button mapping wizard.
 1. From the right dropodown list change `Button` to `uStick Switch`, under `uStick Switch functions` change POV N to `2`, change Switch by to `Button Alt`, then check the `POV mode on start` checkbox.
 1. Close Button mapping wizard, go to Global/Common, change Mouse from `Off` to `Relative`, set Active to `Always On`.
