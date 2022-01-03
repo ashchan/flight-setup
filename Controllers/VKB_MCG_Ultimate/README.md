@@ -35,6 +35,7 @@ This sets up ministick as POV buttons under axes mode by setting `Axes2Buttons` 
 1. Click `Action/Set` to save to device.
 
 Note: if POV #1 (top middle ministick) is used then change POVs number to 3 or more and use #3 or bigger for axes buttons.
+
 Note 2: POV buttons are mapped to DCS view controls (e.g., `JOY_BTN_POV1_R` to `View right slow`). Once I receive and set up [TrackIR](../TrackIR/README.md) I should be able to wipe these and map to other usages.
 
 ### Set mouse buttons and wheel
