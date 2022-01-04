@@ -58,7 +58,7 @@ Note: setup like this disables dragging.
 
 ## Foldable Trigger
 
-Note: foldable trigger is actually an axis which has the get calibrated in order to work properly. When calibrating, be sure to move it from safe (top) to fully triggered (bottom).
+Note: foldable trigger is actually an axis which has the get calibrated in order to work properly. When calibrating, with the trigger at fold down position, start calibrating, then be sure to move it from safe (top) to fully triggered (bottom).
 
 1. Go to Profile/Axes/Axes2Buttons.
 1. Check the `Enable MCG PRO Trigger` checkbox.
