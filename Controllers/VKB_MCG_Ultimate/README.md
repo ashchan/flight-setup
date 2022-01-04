@@ -45,6 +45,17 @@ Note 2: POV buttons are mapped to DCS view controls (e.g., `JOY_BTN_POV1_R` to `
 1. Repeat, tis time set type to `Wheel`.
 1. Click `Action/Set` to save to device.
 
+To use the ministick center push button as both a mouse button and axis/mouse mode switch button:
+
+1. Identify the ministick center push button, open Button mapping wizard.
+1. From the right dropodown list change `Button` to `uStick Switch`, under `uStick Switch functions` change POV N to `2`, change Switch by to `Tempo B`, then check the `POV mode on start` checkbox.
+1. For the new button appearing below, change `Button` to `Mice`, set type to `Button`, then select `Left Button` or `Right Button`.
+1. Click `Action/Set` to save to device.
+
+Now short press on the ministick center button acts as mouse left button, while long press switches mouse/axis mode.
+
+Note: setup like this disables dragging.
+
 ## Foldable Trigger
 
 Note: foldable trigger is actually an axis which has the get calibrated in order to work properly. When calibrating, be sure to move it from safe (top) to fully triggered (bottom).
@@ -69,3 +80,4 @@ This adds a button to the brake lever.
 * [Software tutorials - How to set up the ministick as virtual mouse](https://www.youtube.com/watch?v=io2qSKM0gs4)
 * [Software tutorials: MCG Ultimate and Pro programming tips and tricks](https://www.youtube.com/watch?v=BBQadRNHeDo)
 * [Software tutorials - Exploiting the ministick](https://www.youtube.com/watch?v=Tv5WDTU1fvA)
+* [NJoy32 Family Controllers Configuration Utility User guide](https://vkbcontrollers.com/wp-content/uploads/2021/05/controller_2_15_En.pdf)
