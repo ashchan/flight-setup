@@ -12,3 +12,7 @@ T-Rudders have only one axis, which is `#7`(`RotX`). This sets it up to have two
 1. For `7`, set Type to `Edges2`, Num to `1`, Hysteresis to `5%`.
 1. Double click VBut1 (`2`), from the popup Virtual layer window select a free (green) button. That button and the one followed will be used.
 1. Click `Action/Set` to save to device.
+
+## DCS Settings
+
+Set Rudder axis to use `JOY_RX`, Curvature to `20` and Deadzone to `10`.

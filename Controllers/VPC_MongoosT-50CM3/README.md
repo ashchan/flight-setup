@@ -29,6 +29,10 @@ Just like throttle axis, enable **Axis to button (predefined ranges)** for the f
 * `0-20%`, mapping to `Flap down` in DCS.
 * `81-100%`, mapping to `Flap up` in DCS.
 
+## Other DCS Settings
+
+Set Zoom View axis to use `JOY_Z`, Curvature to `-18`, and check `Slider`.
+
 ## References
 
 * [VPC MongoosT-50CM3 Throttle - User Manual](https://support.virpil.com/en/support/solutions/articles/47001155376--throttle-vpc-mongoost-50cm3-throttle-user-manual)
