@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Version Num="2105"/>
+<FriendlyName PlatformAvailability="1">VKBsim T-Rudder  profile</FriendlyName>
+<Device DeviceName=" VKBsim T-Rudder " GUID="{26EE6770-7AAA-11EC-8001-444553540000}" ProductID="287" CompositeID="0">
+	<Axes>
+		<Axis AxisName="rX" AxisSensitivy="0" AxisSensitivyMinus="0" AxisNeutral="0" AxisDeadZone="0" AxisOutDeadZone="0" AxisResponseRate="-1"/>
+		<Axis AxisName="rY" AxisSensitivy="0" AxisSensitivyMinus="0" AxisNeutral="0" AxisDeadZone="0" AxisOutDeadZone="0" AxisResponseRate="-1"/>
+		<Axis AxisName="rZ" AxisSensitivy="0" AxisSensitivyMinus="0" AxisNeutral="0" AxisDeadZone="0" AxisOutDeadZone="0" AxisResponseRate="-1"/>
+	</Axes>
+	<Context ContextName="PLANE">
+		<Action ActionName="KEY_AXIS_RUDDER_SET" Flag="4">
+			<Primary>
+				<KEY Information="Joystick R-Axis X ">770</KEY>
+			</Primary>
+		</Action>
+	</Context>
+</Device>
+
