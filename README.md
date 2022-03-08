@@ -1,6 +1,8 @@
 # Flight Setup
 
-Personal HOTAS &amp; other setups for Flight Simulator ✈
+Personal HOTAS &amp; other setups for Flight Simulator ✈.
+
+Issues of this repo is used to record references to tutorials, articles, videos, and any materails for my own learning purpose.
 
 ## Controllers
 
