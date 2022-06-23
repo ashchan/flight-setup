@@ -1,0 +1,244 @@
+Version 66
+{Video
+	Adapter "NVIDIA GeForce RTX 2070 SUPER"
+	Monitor 0
+	Windowed 1
+	FullscreenBorderless 1
+	Resolution 3840 2160
+	FullScreenResolution 3840 2160
+	PrimaryScaling 0.650000
+	SecondaryScaling 1.000000
+	PrimaryScalingVR 0.800000
+	SecondaryScalingVR 1.000000
+	VSync 0
+	HDR10 0
+	Raytracing 0
+	PreferD3D12 0
+	PosX 0
+	PosY 0
+}
+{Graphics
+	Version 1.1.0
+	Preset Custom
+	{Texture
+		MaxAnisotropy 8
+		Quality 1
+	}
+	{SuperSampling
+		SuperSampling 2
+	}
+	{Terrain
+		LoDFactor 1.500000
+	}
+	{OffscreenTerrainPreCaching
+		Enabled 1
+		Quality 2
+	}
+	{ObjectsLoD
+		LoDFactor 1.000000
+	}
+	{Shadows
+		MaxSliceCount 4
+		Size 1536
+		DLightContributionCullingThresholdS0 0.100000
+		DLightContributionCullingThresholdS1 0.100000
+		DLightContributionCullingThresholdS2 0.100000
+		DLightContributionCullingThresholdS3 0.100000
+		OmniContributionCullingThreshold 0.020000
+	}
+	{HeightFieldShadows
+		Enabled 1
+		Size 512
+	}
+	{SSRaytracedShadows
+		Enabled 1
+		Quality 2
+	}
+	{Water
+		FFTSize 512
+	}
+	{VolumetricClouds
+		Enabled 1
+		Quality 2
+	}
+	{VolumetricLights
+		Enabled 1
+		Quality 2
+	}
+	{ReflectionProbe
+		Size 192
+	}
+	{SSR
+		Enabled 1
+		HalfRes 0
+		Quality 2
+	}
+	{WindShield
+		Quality 2
+	}
+	{SSAO
+		Enabled 1
+		Quality 0
+	}
+	{AA
+		Enabled 1
+		Type 2
+	}
+	{Bloom
+		Enabled 1
+	}
+	{DOF
+		Enabled 0
+		Quality 0
+	}
+	{MotionBlur
+		Enabled 0
+		Quality 0
+	}
+	{Buildings
+		Enabled 1
+		Quality 2
+	}
+	{VegetationLarge
+		Enabled 1
+		Quality 2
+	}
+	{VegetationSmall
+		Enabled 1
+		Quality 2
+	}
+	{TextureSynthesis
+		Quality 2
+	}
+	{PostProcess
+		Enabled 1
+		EyeAdaptation 1
+		ColorGrading 1
+		Sharpen 1
+		Fringe 1
+		LensDistortion 0
+		Dirt 1
+		LensFlare 0
+		FilmGrain 1
+		Vignette 1
+		LensBlurMultiplier 1.000000
+		FringeMultiplier 1.000000
+	}
+	{VectorDataTessellation
+		Enabled 1
+		Quality 2
+	}
+}
+{GraphicsVR
+	Version 1.1.0
+	Preset Custom
+	{Texture
+		MaxAnisotropy 1
+		Quality 0
+	}
+	{SuperSampling
+		SuperSampling 0
+	}
+	{Terrain
+		LoDFactor 1.000000
+	}
+	{OffscreenTerrainPreCaching
+		Enabled 1
+		Quality 1
+	}
+	{ObjectsLoD
+		LoDFactor 1.000000
+	}
+	{Shadows
+		MaxSliceCount 4
+		Size 1024
+		DLightContributionCullingThresholdS0 0.100000
+		DLightContributionCullingThresholdS1 0.100000
+		DLightContributionCullingThresholdS2 0.100000
+		DLightContributionCullingThresholdS3 0.100000
+		OmniContributionCullingThreshold 0.020000
+	}
+	{HeightFieldShadows
+		Enabled 1
+		Size 512
+	}
+	{SSRaytracedShadows
+		Enabled 1
+		Quality 1
+	}
+	{Water
+		FFTSize 512
+	}
+	{VolumetricClouds
+		Enabled 1
+		Quality 1
+	}
+	{VolumetricLights
+		Enabled 1
+		Quality 1
+	}
+	{ReflectionProbe
+		Size 64
+	}
+	{SSR
+		Enabled 1
+		HalfRes 0
+		Quality 1
+	}
+	{WindShield
+		Quality 1
+	}
+	{SSAO
+		Enabled 1
+		Quality 1
+	}
+	{AA
+		Enabled 1
+		Type 2
+	}
+	{Bloom
+		Enabled 1
+	}
+	{DOF
+		Enabled 1
+		Quality 1
+	}
+	{MotionBlur
+		Enabled 1
+		Quality 1
+	}
+	{Buildings
+		Enabled 1
+		Quality 1
+	}
+	{VegetationLarge
+		Enabled 1
+		Quality 1
+	}
+	{VegetationSmall
+		Enabled 1
+		Quality 1
+	}
+	{TextureSynthesis
+		Quality 2
+	}
+	{PostProcess
+		Enabled 1
+		EyeAdaptation 1
+		ColorGrading 1
+		Sharpen 1
+		Fringe 1
+		LensDistortion 0
+		Dirt 1
+		LensFlare 1
+		FilmGrain 1
+		Vignette 1
+		LensBlurMultiplier 1.000000
+		FringeMultiplier 1.000000
+	}
+	{VectorDataTessellation
+		Enabled 1
+		Quality 1
+	}
+}
+InstalledPackagesPath "E:\Microsoft Flight Simulator"
