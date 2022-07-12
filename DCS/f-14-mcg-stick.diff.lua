@@ -7,7 +7,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0.06,
 						},
-						["deadzone"] = 0.02,
+						["deadzone"] = 0,
 						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -25,7 +25,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0.06,
 						},
-						["deadzone"] = 0.02,
+						["deadzone"] = 0,
 						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -184,13 +184,13 @@ local diff = {
 			},
 			["name"] = "Master arm on and cover open",
 		},
-		["d3216pnilunilcd40vd1vpnilvunil"] = {
+		["d3220pnilunilcd40vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN13",
 				},
 			},
-			["name"] = "Display mode takeoff",
+			["name"] = "Display mode landing",
 		},
 		["d3221pnilunilcd40vd1vpnilvunil"] = {
 			["added"] = {
