@@ -19,20 +19,20 @@
       <Val>8.60215</Val>
       <Val>-15</Val>
       <Val>6</Val>
-      <Val>-7.39645</Val>
-      <Val>4.10256</Val>
-      <Val>-1</Val>
+      <Val>-10</Val>
+      <Val>4.10367</Val>
+      <Val>-4.62069</Val>
       <Val>0</Val>
       <Val>0</Val>
       <Val>0</Val>
-      <Val>1</Val>
+      <Val>4.48276</Val>
       <Val>0</Val>
-      <Val>8.48276</Val>
-      <Val>5.0384</Val>
-      <Val>13.1724</Val>
-      <Val>10.8756</Val>
-      <Val>23.7931</Val>
-      <Val>14.9923</Val>
+      <Val>10.2759</Val>
+      <Val>4.83801</Val>
+      <Val>16.069</Val>
+      <Val>10.4536</Val>
+      <Val>25.8621</Val>
+      <Val>14.514</Val>
       <Val>49.5862</Val>
       <Val>19.2934</Val>
     </Inputs>
@@ -54,12 +54,12 @@
       <Val>10.1997</Val>
       <Val>-6.50888</Val>
       <Val>3.58974</Val>
-      <Val>-2.5</Val>
-      <Val>0.5</Val>
+      <Val>-4.34483</Val>
+      <Val>0.12959</Val>
       <Val>0</Val>
-      <Val>0</Val>
-      <Val>2.5</Val>
-      <Val>0.5</Val>
+      <Val>0.0431965</Val>
+      <Val>3.7931</Val>
+      <Val>0.0863931</Val>
       <Val>6.50888</Val>
       <Val>3.58974</Val>
       <Val>22.8276</Val>
@@ -205,29 +205,29 @@
   <Hotkey>
     <Name>Center</Name>
     <ActionID>1</ActionID>
-    <Key>123</Key>
+    <Key>118</Key>
     <Enable>1</Enable>
     <Toggle>1</Toggle>
     <Trap>1</Trap>
-    <IsDevice>0</IsDevice>
-    <DeviceGuid>{00000000-0000-0000-0000-000000000000}</DeviceGuid>
-    <ButtonID>0</ButtonID>
+    <IsDevice>1</IsDevice>
+    <DeviceGuid>{CC945D50-67F0-11EC-8001-444553540000}</DeviceGuid>
+    <ButtonID>4</ButtonID>
   </Hotkey>
   <Hotkey>
     <Name>Pause</Name>
     <ActionID>2</ActionID>
-    <Key>120</Key>
+    <Key>131192</Key>
     <Enable>1</Enable>
     <Toggle>1</Toggle>
     <Trap>1</Trap>
-    <IsDevice>0</IsDevice>
-    <DeviceGuid>{00000000-0000-0000-0000-000000000000}</DeviceGuid>
-    <ButtonID>0</ButtonID>
+    <IsDevice>1</IsDevice>
+    <DeviceGuid>{CC945D50-67F0-11EC-8001-444553540000}</DeviceGuid>
+    <ButtonID>5</ButtonID>
   </Hotkey>
   <Hotkey>
     <Name>Precision</Name>
     <ActionID>3</ActionID>
-    <Key>118</Key>
+    <Key>131193</Key>
     <Enable>1</Enable>
     <Toggle>1</Toggle>
     <Trap>1</Trap>
@@ -238,7 +238,7 @@
   <Hotkey>
     <Name>Profile</Name>
     <ActionID>4</ActionID>
-    <Key>119</Key>
+    <Key>131191</Key>
     <Enable>0</Enable>
     <Toggle>1</Toggle>
     <Trap>1</Trap>
