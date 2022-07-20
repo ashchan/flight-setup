@@ -1,5 +1,41 @@
 local diff = {
 	["axisDiffs"] = {
+		["a2001cdnil"] = {
+			["changed"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0.02,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "Pitch",
+		},
+		["a2002cdnil"] = {
+			["changed"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0.02,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Roll",
+		},
 		["a2003cdnil"] = {
 			["name"] = "Rudder",
 			["removed"] = {
@@ -111,7 +147,10 @@ local diff = {
 		["d3086pnilu3086cd22vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN39",
+					["key"] = "JOY_BTN38",
+				},
+				[2] = {
+					["key"] = "JOY_BTN35",
 				},
 			},
 			["name"] = "Autopilot Emergency Disconnect Paddle",
@@ -131,22 +170,6 @@ local diff = {
 				},
 			},
 			["name"] = "Trigger First Detent",
-		},
-		["d3137pnilunilcd55vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN38",
-				},
-			},
-			["name"] = "Master arm off and cover close",
-		},
-		["d3137pnilunilcd55vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN35",
-				},
-			},
-			["name"] = "Master arm on and cover open",
 		},
 		["d3220pnilunilcd40vd1vpnilvunil"] = {
 			["added"] = {
