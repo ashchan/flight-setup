@@ -112,61 +112,61 @@
     <Limit>180</Limit>
     <Type>0</Type>
     <Inputs>
-      <Val>-16.3501</Val>
-      <Val>2.83912</Val>
-      <Val>-12.8223</Val>
-      <Val>2.77603</Val>
-      <Val>-9.70149</Val>
-      <Val>2.39748</Val>
-      <Val>-6.44505</Val>
-      <Val>1.70347</Val>
+      <Val>-18.1379</Val>
+      <Val>2.89417</Val>
+      <Val>-13.4483</Val>
+      <Val>2.85097</Val>
+      <Val>-10.4138</Val>
+      <Val>2.67819</Val>
+      <Val>-6.41379</Val>
+      <Val>2.24622</Val>
       <Val>-3.05291</Val>
       <Val>0</Val>
       <Val>0</Val>
       <Val>0.126183</Val>
       <Val>3.05291</Val>
       <Val>0</Val>
-      <Val>6.44505</Val>
-      <Val>1.70347</Val>
-      <Val>9.70149</Val>
-      <Val>2.39748</Val>
-      <Val>12.8223</Val>
-      <Val>2.77603</Val>
-      <Val>16.3501</Val>
-      <Val>2.83912</Val>
+      <Val>6.41379</Val>
+      <Val>2.24622</Val>
+      <Val>10.4138</Val>
+      <Val>2.67819</Val>
+      <Val>13.4483</Val>
+      <Val>2.85097</Val>
+      <Val>18.1379</Val>
+      <Val>2.89417</Val>
     </Inputs>
   </Curve>
   <Curve>
     <Axis>4</Axis>
-    <Enabled>0</Enabled>
+    <Enabled>1</Enabled>
     <Inverted>0</Inverted>
     <Mirrored>1</Mirrored>
     <Limited>0</Limited>
     <Limit>180</Limit>
     <Type>0</Type>
     <Inputs>
-      <Val>-20.4206</Val>
-      <Val>4.98423</Val>
-      <Val>-15.943</Val>
-      <Val>4.85804</Val>
-      <Val>-11.4654</Val>
-      <Val>4.54259</Val>
-      <Val>-3.45997</Val>
-      <Val>4.10095</Val>
-      <Val>-1.96743</Val>
-      <Val>0</Val>
+      <Val>-21.7241</Val>
+      <Val>6.78186</Val>
+      <Val>-17.7241</Val>
+      <Val>6.69546</Val>
+      <Val>-11.2414</Val>
+      <Val>6.00432</Val>
+      <Val>-4.89655</Val>
+      <Val>4.44924</Val>
+      <Val>-1.86207</Val>
+      <Val>0.233236</Val>
       <Val>0</Val>
       <Val>0.0630915</Val>
-      <Val>1.96743</Val>
-      <Val>0</Val>
-      <Val>3.45997</Val>
-      <Val>4.10095</Val>
-      <Val>11.4654</Val>
-      <Val>4.54259</Val>
-      <Val>15.943</Val>
-      <Val>4.85804</Val>
-      <Val>20.4206</Val>
-      <Val>4.98423</Val>
+      <Val>1.86207</Val>
+      <Val>0.233236</Val>
+      <Val>4.89655</Val>
+      <Val>4.44924</Val>
+      <Val>11.2414</Val>
+      <Val>6.00432</Val>
+      <Val>17.7241</Val>
+      <Val>6.69546</Val>
+      <Val>21.7241</Val>
+      <Val>6.78186</Val>
     </Inputs>
   </Curve>
   <Curve>
@@ -178,28 +178,28 @@
     <Limit>180</Limit>
     <Type>0</Type>
     <Inputs>
-      <Val>-10.6513</Val>
-      <Val>2.71293</Val>
-      <Val>-6.03799</Val>
-      <Val>2.01893</Val>
-      <Val>-4.81682</Val>
-      <Val>1.95584</Val>
-      <Val>-3.32429</Val>
-      <Val>1.95584</Val>
+      <Val>-10.4138</Val>
+      <Val>3.38192</Val>
+      <Val>-7.51724</Val>
+      <Val>2.85714</Val>
+      <Val>-5.58621</Val>
+      <Val>2.62391</Val>
+      <Val>-3.37931</Val>
+      <Val>2.50729</Val>
       <Val>-1.69606</Val>
       <Val>0</Val>
       <Val>0</Val>
       <Val>0</Val>
       <Val>1.69606</Val>
       <Val>0</Val>
-      <Val>3.32429</Val>
-      <Val>1.95584</Val>
-      <Val>4.81682</Val>
-      <Val>1.95584</Val>
-      <Val>6.03799</Val>
-      <Val>2.01893</Val>
-      <Val>10.6513</Val>
-      <Val>2.71293</Val>
+      <Val>3.37931</Val>
+      <Val>2.50729</Val>
+      <Val>5.58621</Val>
+      <Val>2.62391</Val>
+      <Val>7.51724</Val>
+      <Val>2.85714</Val>
+      <Val>10.4138</Val>
+      <Val>3.38192</Val>
     </Inputs>
   </Curve>
   <Hotkey>
