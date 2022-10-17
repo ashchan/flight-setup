@@ -41,9 +41,9 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.08,
+							[1] = 0.25,
 						},
-						["deadzone"] = 0.02,
+						["deadzone"] = 0.03,
 						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -70,142 +70,118 @@ local diff = {
 			["name"] = "Rudder",
 		},
 		["a2004cdnil"] = {
-			["name"] = "Throttle Both",
+			["name"] = "Thrust",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
 		},
-		["a3083cd57"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RX",
-				},
-			},
-			["name"] = "DLC / Maneuver Flaps Retract",
-		},
 	},
 	["keyDiffs"] = {
-		["d3078pnilu3078cd57vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "Store Release",
-		},
-		["d3079pnilunilcd55vd-0.5vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-			},
-			["name"] = "Weapon Selector Sidewinder Missiles",
-		},
-		["d3079pnilunilcd55vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN16",
-				},
-			},
-			["name"] = "Weapon Selector Off",
-		},
-		["d3079pnilunilcd55vd0.5vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "Weapon Selector Sparrow or Phoenix Missiles",
-		},
-		["d3079pnilunilcd55vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "Weapon Selector Gun",
-		},
-		["d3082pnilu3082cd57vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-			},
-			["name"] = "Weapon Selector press",
-		},
-		["d3084pnilu3084cd57vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
-			},
-			["name"] = "DLC Toggle / Countermeasure Dispense",
-		},
-		["d3085pnilu3085cd57vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN7",
-				},
-			},
-			["name"] = "Autopilot Reference / Nosewheel Steering Toggle",
-		},
-		["d3086pnilu3086cd22vd1vpnilvu0"] = {
+		["d3004pnilu3004cd2vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "Autopilot Emergency Disconnect Paddle",
+			["name"] = "Pitch Damper Cutoff Switch",
 		},
-		["d3087pnilu3087cd57vd1vpnilvu0"] = {
+		["d3004pnilu3004cd7vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN7",
 				},
 			},
-			["name"] = "Trigger",
+			["name"] = "Nosewheel Steering Button",
 		},
-		["d3088pnilu3088cd57vd1vpnilvu0"] = {
+		["d3005pnilu3005cd18vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN27",
+				},
+			},
+			["name"] = "Dogfight/Resume Search Switch - FORWARD (DM)",
+		},
+		["d3005pnilu3005cd18vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN28",
+				},
+			},
+			["name"] = "Dogfight/Resume Search Switch - AFT (DG)",
+		},
+		["d3006pnilu3006cd18vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "Dogfight/Resume Search Switch - CENTER-PRESS (RESUME SEARCH)",
+		},
+		["d3016pnilu3016cd15vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN1",
 				},
 			},
-			["name"] = "Trigger First Detent",
+			["name"] = "Gun Trigger - FIRST DETENT",
 		},
-		["dnilp2019u2019cdnilvdnilvp-1vu0"] = {
+		["d3020pnilu3020cd2vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN8",
 				},
 			},
-			["name"] = "Trim Pitch Down",
+			["name"] = "Aileron Limiter (Hold to turn off)",
 		},
-		["dnilp2019u2019cdnilvdnilvp1vu0"] = {
+		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN3",
 				},
 			},
-			["name"] = "Trim Pitch Up",
+			["name"] = "Weapon Release Button",
 		},
-		["dnilp2020u2020cdnilvdnilvp-1vu0"] = {
+		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "Gun Trigger - SECOND DETENT (Press to shoot)",
+		},
+		["dnilp93u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN10",
 				},
 			},
-			["name"] = "Trim Roll Left Wing Down",
+			["name"] = "Aileron Trimmer Switch - LEFT WING DOWN",
 		},
-		["dnilp2020u2020cdnilvdnilvp1vu0"] = {
+		["dnilp94u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN11",
 				},
 			},
-			["name"] = "Trim Roll Right Wing Down",
+			["name"] = "Aileron Trimmer Switch - RIGHT WING DOWN",
+		},
+		["dnilp95u215cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "Elevator Trimmer Switch - PULL(CLIMB)",
+		},
+		["dnilp96u215cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "Elevator Trimmer Switch - PUSH(DESCEND)",
 		},
 	},
 }
