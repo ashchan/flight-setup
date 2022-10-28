@@ -132,6 +132,14 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d1560pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+			},
+			["name"] = "Rearming and Refueling Window",
+		},
 		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -143,7 +151,7 @@ local diff = {
 		["d3001pnilunilcd61vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "Kneeboard Next Page",
@@ -151,18 +159,10 @@ local diff = {
 		["d3002pnilunilcd61vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN2",
 				},
 			},
 			["name"] = "Kneeboard Previous Page",
-		},
-		["d3023pnilunilcd18vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN35",
-				},
-			},
-			["name"] = "Catapult Salute",
 		},
 		["d3024pnilu3024cd17vd1vpnilvu0"] = {
 			["added"] = {
@@ -203,6 +203,14 @@ local diff = {
 				},
 			},
 			["name"] = "Autopilot toggle",
+		},
+		["d3058pnilu3058cd23vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN43",
+				},
+			},
+			["name"] = "MASTER RESET",
 		},
 		["d3126pnilu3126cd57vd1vpnilvu0"] = {
 			["added"] = {
@@ -324,6 +332,30 @@ local diff = {
 			},
 			["name"] = "Exterior Lights Master Switch Toggle",
 		},
+		["d3718pnilu3718cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "Mic Button ICS - SRS or VoIP Only / No Menu",
+		},
+		["d3719pnilu3719cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN17",
+				},
+			},
+			["name"] = "Mic Button UHF1 (ARC-159) - SRS or VoIP Only / No Menu",
+		},
+		["d3720pnilu3720cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN18",
+				},
+			},
+			["name"] = "Mic Button UHF2 (ARC-182) - SRS or VoIP Only / No Menu",
+		},
 		["d3740pnilunilcd22vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -351,7 +383,7 @@ local diff = {
 		["dnilp3020u3020cd18vdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN24",
+					["key"] = "JOY_BTN23",
 				},
 			},
 			["name"] = "Speed brake extend",
