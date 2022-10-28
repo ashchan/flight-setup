@@ -231,7 +231,7 @@ local diff = {
 		["d3128pnilu3128cd20vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN66",
+					["key"] = "JOY_BTN67",
 				},
 			},
 			["name"] = "Left Engine Cutoff",
@@ -239,7 +239,7 @@ local diff = {
 		["d3129pnilu3129cd20vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN67",
+					["key"] = "JOY_BTN68",
 				},
 			},
 			["name"] = "Right Engine Cutoff",
