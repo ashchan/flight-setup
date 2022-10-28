@@ -39,7 +39,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0,
 						},
-						["deadzone"] = 0.04,
+						["deadzone"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -57,7 +57,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0,
 						},
-						["deadzone"] = 0.04,
+						["deadzone"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -71,9 +71,17 @@ local diff = {
 		["a2012cdnil"] = {
 			["added"] = {
 				[1] = {
+					["key"] = "JOY_Z",
+				},
+			},
+			["name"] = "Zoom View",
+		},
+		["a3729cd19"] = {
+			["added"] = {
+				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = -0.1,
+							[1] = 0,
 						},
 						["deadzone"] = 0,
 						["invert"] = false,
@@ -81,29 +89,49 @@ local diff = {
 						["saturationY"] = 1,
 						["slider"] = true,
 					},
-					["key"] = "JOY_Z",
+					["key"] = "JOY_RZ",
 				},
 			},
-			["name"] = "Zoom View",
+			["name"] = "Flap Lever",
+		},
+		["a3776cd41"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_SLIDER2",
+				},
+			},
+			["name"] = "HSD Selected Heading",
+		},
+		["a3777cd41"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_SLIDER1",
+				},
+			},
+			["name"] = "HSD Selected Course",
 		},
 	},
 	["keyDiffs"] = {
-		["d120pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN44",
-				},
-			},
-			["name"] = "Catapult Hook up",
-		},
-		["d1560pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN21",
-				},
-			},
-			["name"] = "Rearming and Refueling Window",
-		},
 		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -115,7 +143,7 @@ local diff = {
 		["d3001pnilunilcd61vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN2",
 				},
 			},
 			["name"] = "Kneeboard Next Page",
@@ -123,39 +151,15 @@ local diff = {
 		["d3002pnilunilcd61vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "Kneeboard Previous Page",
 		},
-		["d3003pnilunilcd61vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN53",
-				},
-			},
-			["name"] = "Kneeboard current position mark point",
-		},
-		["d3013pnilunilcd18vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN49",
-				},
-			},
-			["name"] = "Parking brake pull",
-		},
-		["d3013pnilunilcd18vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN48",
-				},
-			},
-			["name"] = "Parking brake stow",
-		},
 		["d3023pnilunilcd18vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN45",
+					["key"] = "JOY_BTN35",
 				},
 			},
 			["name"] = "Catapult Salute",
@@ -200,38 +204,6 @@ local diff = {
 			},
 			["name"] = "Autopilot toggle",
 		},
-		["d3044pnilunilcd19vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN64",
-				},
-			},
-			["name"] = "Flaps Down",
-		},
-		["d3044pnilunilcd19vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN70",
-				},
-			},
-			["name"] = "Flaps Up",
-		},
-		["d3046pnilunilcd20vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN27",
-				},
-			},
-			["name"] = "Toggle Auto Throttle",
-		},
-		["d3058pnilu3058cd23vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN43",
-				},
-			},
-			["name"] = "MASTER RESET",
-		},
 		["d3126pnilu3126cd57vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -251,7 +223,7 @@ local diff = {
 		["d3128pnilu3128cd20vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN61",
+					["key"] = "JOY_BTN66",
 				},
 			},
 			["name"] = "Left Engine Cutoff",
@@ -259,7 +231,7 @@ local diff = {
 		["d3129pnilu3129cd20vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN62",
+					["key"] = "JOY_BTN67",
 				},
 			},
 			["name"] = "Right Engine Cutoff",
@@ -291,53 +263,58 @@ local diff = {
 		["d3183pnilunilcd12vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN65",
-				},
-				[2] = {
 					["key"] = "JOY_BTN34",
 				},
 			},
 			["name"] = "Toggle Canopy",
 		},
-		["d3314pnilu3314cd46vd1vpnilvu0"] = {
+		["d3367pnilu3367cd3vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN50",
+					["key"] = "JOY_BTN45",
 				},
 			},
-			["name"] = "STEER CMD TACAN",
+			["name"] = "UHF ARC-159 10 MHz Switch Down",
 		},
-		["d3331pnilunilcd47vd-1vpnilvu0"] = {
+		["d3367pnilu3367cd3vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN51",
+					["key"] = "JOY_BTN44",
 				},
 			},
-			["name"] = "TACAN Channel 10 Dec",
+			["name"] = "UHF ARC-159 10 MHz Switch Up",
 		},
-		["d3331pnilunilcd47vd1vpnilvu0"] = {
+		["d3368pnilu3368cd3vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN52",
+					["key"] = "JOY_BTN47",
 				},
 			},
-			["name"] = "TACAN Channel 10 Inc",
+			["name"] = "UHF ARC-159 1 MHz Switch Down",
 		},
-		["d3333pnilunilcd47vd-1vpnilvu0"] = {
+		["d3368pnilu3368cd3vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN54",
+					["key"] = "JOY_BTN46",
 				},
 			},
-			["name"] = "TACAN Channel 1 Dec",
+			["name"] = "UHF ARC-159 1 MHz Switch Up",
 		},
-		["d3333pnilunilcd47vd1vpnilvu0"] = {
+		["d3369pnilu3369cd3vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN55",
+					["key"] = "JOY_BTN49",
 				},
 			},
-			["name"] = "TACAN Channel 1 Inc",
+			["name"] = "UHF ARC-159 0.1 MHz Switch Down",
+		},
+		["d3369pnilu3369cd3vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN48",
+				},
+			},
+			["name"] = "UHF ARC-159 0.1 MHz Switch Up",
 		},
 		["d3654pnilunilcd12vd1vpnilvu0"] = {
 			["added"] = {
@@ -346,46 +323,6 @@ local diff = {
 				},
 			},
 			["name"] = "Exterior Lights Master Switch Toggle",
-		},
-		["d3655pnilunilcd12vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN38",
-				},
-			},
-			["name"] = "Lights Taxi Toggle",
-		},
-		["d3666pnilunilcd26vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN40",
-				},
-			},
-			["name"] = "Lights Hook Bypass Toggle",
-		},
-		["d3682pnilunilcd65vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN33",
-				},
-			},
-			["name"] = "Automatic Startup Procedure",
-		},
-		["d3719pnilu3719cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-				},
-			},
-			["name"] = "Mic Button UHF1 (ARC-159) - SRS or VoIP Only / No Menu",
-		},
-		["d3720pnilu3720cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN18",
-				},
-			},
-			["name"] = "Mic Button UHF2 (ARC-182) - SRS or VoIP Only / No Menu",
 		},
 		["d3740pnilunilcd22vd1vpnilvunil"] = {
 			["added"] = {
@@ -418,22 +355,6 @@ local diff = {
 				},
 			},
 			["name"] = "Speed brake extend",
-		},
-		["dnilp3242unilcd41vdnilvp-0.001vu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "HSD Course Knob Dec",
-		},
-		["dnilp3242unilcd41vdnilvp0.001vu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-			},
-			["name"] = "HSD Course Knob Inc",
 		},
 	},
 }
