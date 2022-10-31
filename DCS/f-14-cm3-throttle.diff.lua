@@ -334,6 +334,30 @@ local diff = {
 			},
 			["name"] = "UHF ARC-159 0.1 MHz Switch Up",
 		},
+		["d3384pnilu3384cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "Mic Button ICS",
+		},
+		["d3385pnilu3385cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN17",
+				},
+			},
+			["name"] = "Mic Button UHF1 (ARC-159)",
+		},
+		["d3386pnilu3386cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN18",
+				},
+			},
+			["name"] = "Mic Button UHF2 (ARC-182)",
+		},
 		["d3654pnilunilcd12vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -342,30 +366,6 @@ local diff = {
 			},
 			["name"] = "Exterior Lights Master Switch Toggle",
 		},
-		["d3718pnilu3718cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN20",
-				},
-			},
-			["name"] = "Mic Button ICS - SRS or VoIP Only / No Menu",
-		},
-		["d3719pnilu3719cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-				},
-			},
-			["name"] = "Mic Button UHF1 (ARC-159) - SRS or VoIP Only / No Menu",
-		},
-		["d3720pnilu3720cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN18",
-				},
-			},
-			["name"] = "Mic Button UHF2 (ARC-182) - SRS or VoIP Only / No Menu",
-		},
 		["d3740pnilunilcd22vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -373,6 +373,14 @@ local diff = {
 				},
 			},
 			["name"] = "Altitude Hold Toggle",
+		},
+		["d835pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "Show pilot body",
 		},
 		["dnilp2101u2101cdnilvdnilvp1vu-1"] = {
 			["added"] = {
