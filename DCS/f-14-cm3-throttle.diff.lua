@@ -142,14 +142,6 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d1560pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN21",
-				},
-			},
-			["name"] = "Rearming and Refueling Window",
-		},
 		["d1587pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -286,54 +278,6 @@ local diff = {
 			},
 			["name"] = "Toggle Canopy",
 		},
-		["d3367pnilu3367cd3vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN45",
-				},
-			},
-			["name"] = "UHF ARC-159 10 MHz Switch Down",
-		},
-		["d3367pnilu3367cd3vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN44",
-				},
-			},
-			["name"] = "UHF ARC-159 10 MHz Switch Up",
-		},
-		["d3368pnilu3368cd3vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN47",
-				},
-			},
-			["name"] = "UHF ARC-159 1 MHz Switch Down",
-		},
-		["d3368pnilu3368cd3vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN46",
-				},
-			},
-			["name"] = "UHF ARC-159 1 MHz Switch Up",
-		},
-		["d3369pnilu3369cd3vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN49",
-				},
-			},
-			["name"] = "UHF ARC-159 0.1 MHz Switch Down",
-		},
-		["d3369pnilu3369cd3vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN48",
-				},
-			},
-			["name"] = "UHF ARC-159 0.1 MHz Switch Up",
-		},
 		["d3384pnilu3384cd2vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -358,6 +302,14 @@ local diff = {
 			},
 			["name"] = "Mic Button UHF2 (ARC-182)",
 		},
+		["d3550pnilu3550cd62vd1vpnilvu-1"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "Toggle Menu",
+		},
 		["d3654pnilunilcd12vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -365,6 +317,30 @@ local diff = {
 				},
 			},
 			["name"] = "Exterior Lights Master Switch Toggle",
+		},
+		["d3656pnilunilcd12vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN44",
+				},
+			},
+			["name"] = "Lights Red Flood Toggle",
+		},
+		["d3657pnilunilcd12vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN45",
+				},
+			},
+			["name"] = "Lights White Flood Toggle",
+		},
+		["d3669pnilunilcd62vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN69",
+				},
+			},
+			["name"] = "Check",
 		},
 		["d3740pnilunilcd22vd1vpnilvunil"] = {
 			["added"] = {
@@ -377,7 +353,7 @@ local diff = {
 		["d835pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN32",
+					["key"] = "JOY_BTN21",
 				},
 			},
 			["name"] = "Show pilot body",
@@ -405,6 +381,22 @@ local diff = {
 				},
 			},
 			["name"] = "Speed brake extend",
+		},
+		["dnilp484u490cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN48",
+				},
+			},
+			["name"] = "Cockpit Camera Move Up",
+		},
+		["dnilp485u490cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN49",
+				},
+			},
+			["name"] = "Cockpit Camera Move Down",
 		},
 	},
 }

@@ -46,28 +46,28 @@
     <Limit>180</Limit>
     <Type>0</Type>
     <Inputs>
-      <Val>-49.8643</Val>
-      <Val>8.07571</Val>
-      <Val>-25.7123</Val>
-      <Val>9.5899</Val>
-      <Val>-13.365</Val>
-      <Val>8.45426</Val>
-      <Val>-7.12347</Val>
-      <Val>7.00315</Val>
-      <Val>-3.45997</Val>
-      <Val>0.0630915</Val>
+      <Val>-49.8621</Val>
+      <Val>10.6695</Val>
+      <Val>-19.6552</Val>
+      <Val>13.2613</Val>
+      <Val>-11.931</Val>
+      <Val>11.9222</Val>
+      <Val>-8.2069</Val>
+      <Val>9.76242</Val>
+      <Val>-2.41379</Val>
       <Val>0</Val>
       <Val>0</Val>
-      <Val>3.45997</Val>
-      <Val>0.0630915</Val>
-      <Val>7.12347</Val>
-      <Val>7.00315</Val>
-      <Val>13.365</Val>
-      <Val>8.45426</Val>
-      <Val>25.7123</Val>
-      <Val>9.5899</Val>
-      <Val>49.8643</Val>
-      <Val>8.07571</Val>
+      <Val>0</Val>
+      <Val>2.41379</Val>
+      <Val>0</Val>
+      <Val>8.2069</Val>
+      <Val>9.76242</Val>
+      <Val>11.931</Val>
+      <Val>11.9222</Val>
+      <Val>19.6552</Val>
+      <Val>13.2613</Val>
+      <Val>49.8621</Val>
+      <Val>10.6695</Val>
     </Inputs>
   </Curve>
   <Curve>
@@ -210,8 +210,8 @@
     <Toggle>1</Toggle>
     <Trap>1</Trap>
     <IsDevice>1</IsDevice>
-    <DeviceGuid>{CC945D50-67F0-11EC-8001-444553540000}</DeviceGuid>
-    <ButtonID>4</ButtonID>
+    <DeviceGuid>{76DFE6C0-569E-11ED-8003-444553540000}</DeviceGuid>
+    <ButtonID>31</ButtonID>
   </Hotkey>
   <Hotkey>
     <Name>Pause</Name>
@@ -221,14 +221,14 @@
     <Toggle>1</Toggle>
     <Trap>1</Trap>
     <IsDevice>1</IsDevice>
-    <DeviceGuid>{CC945D50-67F0-11EC-8001-444553540000}</DeviceGuid>
-    <ButtonID>5</ButtonID>
+    <DeviceGuid>{76DFE6C0-569E-11ED-8003-444553540000}</DeviceGuid>
+    <ButtonID>74</ButtonID>
   </Hotkey>
   <Hotkey>
     <Name>Precision</Name>
     <ActionID>3</ActionID>
     <Key>131193</Key>
-    <Enable>1</Enable>
+    <Enable>0</Enable>
     <Toggle>1</Toggle>
     <Trap>1</Trap>
     <IsDevice>0</IsDevice>
