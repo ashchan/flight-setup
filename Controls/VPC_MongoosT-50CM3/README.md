@@ -38,3 +38,4 @@ Set Zoom View axis to use `JOY_Z`, Curvature to `-18`, and check `Slider`.
 * [VPC MongoosT-50CM3 Throttle - User Manual](https://support.virpil.com/en/support/solutions/articles/47001155376--throttle-vpc-mongoost-50cm3-throttle-user-manual)
 * [Virpil CM3 throttle – setting up detents and comparison with CM2](https://forums.eagle.ru/topic/260319-virpil-cm3-throttle-setting-up-detents-and-comparison-with-cm2/)
 * New method (2022): [PС Software Setup 20211101](https://forum.virpil.com/index.php?/topic/5472-vp%D1%81-software-setup-20211101-release-candidate/page/11/#comment-34613)
+* Updated info (2023): [VPС Software Setup 20230328](https://forum.virpil.com/index.php?/topic/15709-vp%D1%81-software-setup-20230328/&do=findComment&comment=54234)
