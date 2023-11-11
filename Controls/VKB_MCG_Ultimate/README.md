@@ -83,4 +83,4 @@ This adds a button to the brake lever.
 * [Software tutorials - How to set up the ministick as virtual mouse](https://www.youtube.com/watch?v=io2qSKM0gs4)
 * [Software tutorials: MCG Ultimate and Pro programming tips and tricks](https://www.youtube.com/watch?v=BBQadRNHeDo)
 * [Software tutorials - Exploiting the ministick](https://www.youtube.com/watch?v=Tv5WDTU1fvA)
-* [NJoy32 Family Controllers Configuration Utility User guide](https://vkbcontrollers.com/wp-content/uploads/2021/05/controller_2_15_En.pdf)
+* [NJoy32 Family Controllers Configuration Utility User Guide](https://cdn.shopify.com/s/files/1/0551/4739/7238/files/Njoy32_2_19_En.pdf?v=1692282277)
